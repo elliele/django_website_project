@@ -1,12 +1,18 @@
 # django_website_project
 
+### Installing Django
+
+```
+python -m pip install Django
+```
+
 
 ### Basic HTML template
 Using Bootstrap3 as basic HTML template for the base.html file.
 
 Start with this basic HTML template, or modify these examples. 
 
-  <!DOCTYPE html>
+``` <!DOCTYPE html>
   <html lang="en">
     <head>
       <meta charset="utf-8">
@@ -35,11 +41,14 @@ Start with this basic HTML template, or modify these examples.
     </body>
   </html>
   
+```
+  
 ### Navbar
 
 Navbars are responsive meta components that serve as navigation headers for your application or site. 
 They begin collapsed (and are toggleable) in mobile views and become horizontal as the available viewport width increases
 
+```
     <nav class="navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -93,4 +102,4 @@ They begin collapsed (and are toggleable) in mobile views and become horizontal 
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
-
+```
