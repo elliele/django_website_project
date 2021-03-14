@@ -1,6 +1,6 @@
 # django_website_project
 
-### Installing Django
+### How to install Django
 
 ```
 python -m pip install Django
